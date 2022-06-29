@@ -43,7 +43,15 @@
 
 - `req.body` : lay du lieu duoc gui len tu client voi phuong thuc post
 - express da tich hop san 1 middware de xu ly query parameters. con body thi chua co
-- express version >= 4.16 da co tich hop middware xu ly body
-- `app.use(express.urlendcoded())` : apply middware xu ly body
+- express version >= 4.16 da co tich hop middware xu ly body , `body-parser`
+- `app.use(express.urlendcoded({extended : true}))` : apply middware xu ly du lieu tu form subbmit len bang phuong thuc post
+- `body-parser` : phu thuoc vao `qs`
+- `qs` : ban chat la querystring, qs parse sang dang key:value
+
+### Route & Controllers
+
+- `module.exports = new NewsController` : export Class NewsController ra ngoai
+- tat ca file route deu can duoc nap vao file index.js trong folder routes
+- 
 
 
