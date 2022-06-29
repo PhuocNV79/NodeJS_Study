@@ -52,6 +52,9 @@
 
 - `module.exports = new NewsController` : export Class NewsController ra ngoai
 - tat ca file route deu can duoc nap vao file index.js trong folder routes
-- 
+
+### MVC Model
+
+- `npm install pg-promise` : cai dat module pg-promise de ket noi voi postgresql
 
 
