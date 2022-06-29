@@ -31,11 +31,19 @@
 - `combined tiny common ...` : predefined format string trong khi ghi log voi morgan
 - `app.use(morgan(combined))` : su dung morgan ghi log voi dinh dang combined
 
-### handlebars template engine
-### bug template engine de viet code html css
+### Handlebars template engine
+### Bug template engine de viet code html css
 
 ### Basic routing 
 
 - `app.get(path, handler)` : xu ly voi duong dan path on server (source code on server localhost, server cloud, server abc) voi phuong thuc get voi cach xu ly handler. **method o dang lowercase**
-- 
+
+### Get method
+### Post method
+
+- `req.body` : lay du lieu duoc gui len tu client voi phuong thuc post
+- express da tich hop san 1 middware de xu ly query parameters. con body thi chua co
+- express version >= 4.16 da co tich hop middware xu ly body
+- `app.use(express.urlendcoded())` : apply middware xu ly body
+
 
