@@ -16,4 +16,8 @@
 9. arr.forEach(function(item){}) : item la cac gia tri cua mang arr
 
 ## 33 Nodejs Event emitter
-10. 
+## 35 Object.create, prototype
+## 36 Inheritance from Event Emitter
+## 37. Javascript Aside: Node, ES6, and Template Literals
+## 38. Javascript Aside : .call, .apply
+
