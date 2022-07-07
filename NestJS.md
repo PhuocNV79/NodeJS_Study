@@ -4,5 +4,5 @@
 2. `npm run start:dev`: start server 
 3. `nest generate module nameOfModule` : create new module
 4. `nest generate controller messages/messages --flat`
-5. 
+5. `nest g module tenModule` : tao module moi
 6. 
