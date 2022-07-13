@@ -5,6 +5,7 @@
 3. `nest generate module nameOfModule` : create new module
 4. `nest generate controller messages/messages --flat`
 5. `nest g module tenModule` : tao module moi
+6. nest g controller tasks --no-spec : ko tao spec
 
 
 ### Section10 : 61. How to build intercepter
