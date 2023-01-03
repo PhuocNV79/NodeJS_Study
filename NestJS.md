@@ -5,9 +5,9 @@
 3. `nest generate module nameOfModule` : create new module
 4. `nest generate controller messages/messages --flat`
 5. `nest g module tenModule` : tao module moi
-6. nest g controller tasks --no-spec : ko tao spec
-7. nest g service tasks --no-spec
-8. yarn add uuid: universal unique id
+6. `nest g controller tasks --no-spec` : ko tao spec
+7. `nest g service tasks --no-spec`
+8. `yarn add uuid`: universal unique id
 
 ### Section10 : 61. How to build intercepter
 Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
