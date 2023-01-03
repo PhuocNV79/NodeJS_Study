@@ -33,7 +33,15 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
 
 ### 10: Create a task module
  - `nest g` : nest cli se tao duoc nhieu thu: module, entity, gateway, resouce
- - `nest g module abc`: tao ra folder abc/abcmodule.ts va tu dong import abcmodule vao app.module.ts
+ - `nest g module abc`: tao ra folder abc/abcmodule.ts va tu dong import abcmodule vao app.module.ts.
+
+### 13. Introduction to NestJS Providers and Services
+ - NestJS Providers co the duoc inject vao cac constructors neu class do dc khai bao @Injectable.
+ - Providers co the la 1 gia tri tho, 1 class hoac 1 function.
+ - Cac providers phai duoc cung cap cho module cua no, thi no moi co the su dung duoc.
+ - Providers co the duoc export tu **Module chua no**, va duoc su dung lai neu co module nao do import **provider do*
+ - **Services** cung la 1 dang provider, la singleton, 
+ - Trong nestjs, provider duoc inject vao constructor cua class muon su dung
 
 ### 14: Introduction to NestJs prodivers and services
 - prodiver co the duoc inject vao constructor neu provider duoc khai bao @Injectable()
