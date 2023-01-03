@@ -29,7 +29,7 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
  - providers: 1 mang cac provider duoc su dung trong module dua vao dependency injection
  - controllers: 1 mang cac contorller duoc khoi tao trong module
  - exports: 1 mang cac provider duoc export de su dung cho cac module khac
- - imports: danh sach cac **module** can thiet cho module hien tai. Cac provider duoc export boi **module** cung se duoc su dung trong module hien tai dua vao DI
+ - imports: danh sach cac **module nào đó** can thiet cho module hien tai. Cac provider duoc export boi **module đó** cung se duoc su dung trong module hien tai dua vao DI
 
 ### 10: Create a task module
  - `nest g` : nest cli se tao duoc nhieu thu: module, entity, gateway, resouce
