@@ -57,5 +57,6 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
 - DTO co the su dung de validate data
 - DTO khong phai la model
 - **DTO co the duoc dinh nghia bang cach su dung interface hoac class**
+- Naming Convention for DTO: noi len chuc nang DTO do lam gi, ex: create-task.dto.ts
 
 
