@@ -50,6 +50,12 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
 - Service la gi? >>> duoc dinh nghia nhu la 1 provider, NOT all prodivers are services
 - class duoc @Injectable() deu la SINGLETON
 - **Class duoc @Injectable() se duoc import vao module, >>> tu do controller co the su dung service o constructor theo Dependency injection**
-- 
+### 21: Data transfer object Dtos
+- Dto la concept chung cua phat trien phan mem, khong chi rieng NestJS
+- DTO chi duong dung de luu tru, truy xuat du lieu cua no
+- DTO giup tang performance
+- DTO co the su dung de validate data
+- DTO khong phai la model
+- **DTO co the duoc dinh nghia bang cach su dung interface hoac class**
 
 
