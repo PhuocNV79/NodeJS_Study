@@ -59,4 +59,17 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
 - **DTO co the duoc dinh nghia bang cach su dung interface hoac class**
 - Naming Convention for DTO: noi len chuc nang DTO do lam gi, ex: create-task.dto.ts
 
+## 30: NestJS Pipes
+- pipe la 1 class duoc danh dau boi `@Injectable()`, implements the PipeTransform interface
+- Pipes co 2 muc dich su dung la:
+   + chuyen doi du lieu ve dinh dang mong muon, transform input data to the desired form.
+   + validate du lieu input dau vao
+- pipes duoc xu ly ngay truoc khi method duoc goi.
+- Co 2 loai pipe: build-in pipes va custom pipes
+ + ValidationPipe, ParseIntPipe, ParseFloatPipe, ParseBoolPipe, ParseArrayPipe, ParseUUIDPipe, ParseEnumPipe, DefaultValuePipe, ParseFilePipe.
+- These pipes all work in the context of validating route parameters, query string parameters and request body values.
+- Co the su dung pipe o cac level nhu: global pipes, handler-pipes, parameter level pipes
+ + parameter level pipes: gon gang nhung kho maintain;
+ + Hanler level pipes: code nhieu hon nhung de maintain, mo rong, neu dtos thay doi thi chi can thay doi pipe
+- 2 thu vien `class-validator` va `class-transformer` thuong dung voi pipe
 
