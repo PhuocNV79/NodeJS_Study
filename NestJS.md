@@ -73,3 +73,5 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
  + Hanler level pipes: code nhieu hon nhung de maintain, mo rong, neu dtos thay doi thi chi can thay doi pipe
 - 2 thu vien `class-validator` va `class-transformer` thuong dung voi pipe
 
+# The Complete Developer's Guide
+
