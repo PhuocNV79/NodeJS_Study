@@ -80,4 +80,16 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
   + B2: Ket noi entity do voi module cha cua no.
   + B3: Ket noi entity voi root connection (app module)
 ## 46 Save(), Insert(), Update(), Delete(), Remove()
+## 61 Che dấu password khi trả data về cho user
+- B1: su dung decorator @Exclude() doi voi cac property muon che dau
+- B2: Ở controller hoặc method, sử dụng @UseInterceptors(ClassSerializerInterceptor)
 
+## 62 Tạo custom Interceptor
+- Interceptor có thể ở controller, method, hoặc global (useGlobalInterceptor)
+- Các bước tạo custom Interceptor:
+  + B1: Tạo 1 class implements NestInterceptor
+  + B2: implement method intercept(context: ExecutionContext, next: CallHandler)
+    * context: ExecutionContext: chứa thông tin incoming request
+    *  intercept sẽ được gọi tự động
+    *  next: Observable, rxjs, callhandler
+    *  
