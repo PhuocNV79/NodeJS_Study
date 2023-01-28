@@ -79,3 +79,5 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
   + B1: Tao 1 file *.entity.ts => Tao 1 class chua cac thuoc tinh cua entity 
   + B2: Ket noi entity do voi module cha cua no.
   + B3: Ket noi entity voi root connection (app module)
+## 46 Save(), Insert(), Update(), Delete(), Remove()
+
