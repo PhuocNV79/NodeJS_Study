@@ -92,4 +92,8 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
     * context: ExecutionContext: chứa thông tin incoming request
     *  intercept sẽ được gọi tự động
     *  next: Observable, rxjs, callhandler
-    *  
+## 83 Why a interceptor and decorator
+- Param Decorator ton tai ben ngoai he thong DI, vi vay, cac Decorator khong the lay duoc cac instance trong he thong DI, vi du userService
+- **Nhung interceptor thi nam trong he thong DI => co the truy cap cac instance**
+
+## 86. Connecting an Interceptor to Dependency Injection
