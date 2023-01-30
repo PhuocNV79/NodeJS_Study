@@ -102,3 +102,10 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
 - Migrattion là 1 file gồm 2 function up(), down()
 - **up()**: mô tả cách create, update columns, delete colums ..
 - **down()**: mô tả cách undo các bước thực hiện ở up()
+## 157: Quản lý config
+- Các bước để tạo file migration
+ + B1: Tắt server
+ + B2: Sử dụng TypeORM CLI để gen file migration trống
+ + B3: Viết code cho hàm up, down
+ + B4: Sử dụng TypeORM CLI để apply file migration vào DB
+ + B5: DB đã được update xong, chạy lại server
