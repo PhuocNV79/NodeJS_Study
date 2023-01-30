@@ -97,3 +97,8 @@ Interceptor nhu 1 nguoi danh chan o ca 2 dau. request va response
 - **Nhung interceptor thi nam trong he thong DI => co the truy cap cac instance**
 
 ## 86. Connecting an Interceptor to Dependency Injection
+
+## 156. Lý thuyết của Migration
+- Migrattion là 1 file gồm 2 function up(), down()
+- **up()**: mô tả cách create, update columns, delete colums ..
+- **down()**: mô tả cách undo các bước thực hiện ở up()
