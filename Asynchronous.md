@@ -1,4 +1,4 @@
-## Xử lý bất đồng đồ trong javascript, NodeJS
+## Xử lý bất đồng bộ trong javascript, NodeJS
 
 ### Callback
 - Trước đây thường xử dụng callback để xử lý bất đồng bộ trong js
@@ -8,6 +8,9 @@
 - bên trong constructor new Promise() sẽ nhận đối số truyền vào là 1 callback, trong callback này có 2 param là resolve và reject
 - Tùy vào xử lý bên trong callback mà ta sẽ gọi hàm resolve() (thành công) hay reject() (thất bại)
 - Các xử lý trong callback của new Promise() sẽ chạy trước khi instance promise.then().catch().finall()
+- Nếu thành công (callback trả về resolve) thì hàm .then() sẽ được gọi
+- Nếu thất bại (callback trả về reject) thì hàm .catch() sẽ được gọi
+- .finally() sẽ luôn được gọi
 ### Async/Await
 - Async/Await được xây dựng trên Promises
 - `Async` được khai báo ở đầu method, thông báo đây là hàm bất đồng bộ
