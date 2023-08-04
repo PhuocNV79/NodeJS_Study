@@ -1,3 +1,5 @@
+## Sections 4: Module, exports and require
+21. By Reference, By Value
 ## Module patterns
 1. pattern 1: overide module.exports bang 1 function;
 2. pattern 2: add 1 property vao module.exports => module.exports.newproperty = ...
